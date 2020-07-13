@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Trabalho pratico modulo 1</title>
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/estilo.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Controle de Cores</h1>
+     
+      <form>
+      <div class="container1">
+        <div class="row">
+          <div class="col-sm">
+            (R) Vermelho
+          </div>
+          <div class="col-sm">
+            (G) Verde
+          </div>
+          <div class="col-sm">
+            (B) Azul
+          </div>
+        </div>
+      </div>
+
+      <div class="container2">
+        <div class="rowbarra">
+          <div class="col-sm">
+
+          <div>         
+            <input type="range" name="vol" id="red" value="0" min="0" max="255">
+            <input type="text" id="control1" value="0" >
+          </div>
+
+          <div>
+            <input type="range" name="vol" id="green" value="0" min="0" max="255">
+            <input type="text" id="control2" value="0" >
+          </div>
+
+          <div>
+            <input type="range" name="vol" id="blue" value="0" min="0" max="255">
+            <input type="text" id="control3" value="0">
+          </div>
+        </div>
+
+      </div> 
+          <div id="divQuadrado">
+            <input type="text" id="colorDone" />
+          </div>
+        </form>
+    </header>
+    <script src="./js/script.js"></script>
+  </body>
+</html>
